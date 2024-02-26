@@ -1,9 +1,10 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 export default function Sidebar() {
   return (
-    <div className="fixed top-0 left-0 h-full bg-transparent p-4 flex flex-col items-center justify-center">
+    <div className="fixed top-0 left-0 h-full bg-gray-500 p-4 flex flex-col items-center justify-center">
       <Link
         href="https://github.com/b0kic4"
         target="_blank"

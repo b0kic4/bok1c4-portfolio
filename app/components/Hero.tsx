@@ -1,7 +1,19 @@
+"use client";
 import Link from "next/link";
-import React from "react";
-
+import React, { useState } from "react";
+import Modal from "./Modal";
+import { Button } from "@/components/ui/button";
 export default function Hero() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <section
       id="hero"
@@ -19,20 +31,19 @@ export default function Hero() {
           </p>
         </div>
         <div className="grid max-w-sm mx-auto items-stretch gap-4 md:max-w-none md:grid-cols-2 lg:gap-6">
-          <Link
-            className="inline-flex items-center justify-center rounded-md border border-gray-200 bg-white px-8 py-3 text-sm font-medium shadow-sm gap-2 transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-            href="#hero"
-          >
+          <Button onClick={openModal} className="h-full">
             Contact Me
-          </Link>
+          </Button>
           <Link
-            className="inline-flex items-center justify-center rounded-md border border-gray-200 bg-white px-8 py-3 text-sm font-medium shadow-sm gap-2 transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+            className="inline-flex items-center justify-center rounded-md border border-gray-200 bg-white px-8 py-3 text-sm font-medium shadow-sm gap-2 transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 h-full"
             href="#projects"
           >
             My Work
           </Link>
         </div>
       </div>
+
+      {isModalOpen && <Modal onClose={closeModal} />}
     </section>
   );
 }

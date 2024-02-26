@@ -32,6 +32,7 @@ const projects = [
       "Supabase (Database)",
       "Firebase Cloud Storage (Image Hosting)",
     ],
+    inDevelopment: false,
   },
   {
     name: "SnapSync",
@@ -56,11 +57,12 @@ const projects = [
       "Zod",
     ],
     hosting: ["Vercel"],
+    inDevelopment: false,
   },
   {
     name: "MyMarketplace",
     description:
-      "E-Commerce Application for Purchasing and Creating new Products IN DEVELOPMENT",
+      "E-Commerce Application for Purchasing and Creating new Products",
     imageUrl: "https://snipboard.io/SrQTkg.jpg",
     link: "https://mymarketplace-mu.vercel.app/",
     techStack: ["React", "Nextjs", "Nestjs", "Postgresql"],
@@ -70,6 +72,7 @@ const projects = [
       "Supabase (Database)",
       "Firebase Cloud Storage (Image Hosting)",
     ],
+    inDevelopment: true,
   },
 ];
 
@@ -80,6 +83,7 @@ const ProjectPreview = ({
   link,
   techStack,
   hosting,
+  inDevelopment,
 }: {
   name: string;
   description: string;
@@ -87,6 +91,7 @@ const ProjectPreview = ({
   link: string;
   techStack: string[];
   hosting: string[];
+  inDevelopment: boolean;
 }) => (
   <Link
     href={link}
@@ -105,7 +110,14 @@ const ProjectPreview = ({
       />
     </div>
     <div className="flex flex-col">
-      <h3 className="text-xl font-semibold mb-2">{name}</h3>
+      <div className="flex flex-col gap-1">
+        <h3 className="text-xl font-semibold mb-2">{name}</h3>
+        {inDevelopment && (
+          <span className="text-md text-yellow-600 font-semibold ml-2">
+            In Development
+          </span>
+        )}
+      </div>
       <p className="text-sm text-gray-600 mb-4">{description}</p>
       <div className="flex space-x-4">
         <div className="flex flex-col">
