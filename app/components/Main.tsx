@@ -60,7 +60,7 @@ const projects = [
   {
     name: "MyMarketplace",
     description:
-      "E-Commerce Application for Purchasing and Creating new Products -\nIN DEVELOPMENT",
+      "E-Commerce Application for Purchasing and Creating new Products IN DEVELOPMENT",
     imageUrl: "https://snipboard.io/SrQTkg.jpg",
     link: "https://mymarketplace-mu.vercel.app/",
     techStack: ["React", "Nextjs", "Nestjs", "Postgresql"],
