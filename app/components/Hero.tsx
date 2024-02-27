@@ -24,7 +24,6 @@ export default function Hero() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Hi, I’m Boris
           </h2>
-          <p className="text-xs">vim motions {`<3`}</p>
           <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             I’m a passionate and creative Full Stack Web Developer who loves
             turning ideas into beautiful and intuitive websites.
