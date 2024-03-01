@@ -38,7 +38,7 @@ const projects = [
     name: "SnapSync",
     description: "Image Refactorer Resizer and More powered with AI",
     imageUrl: "https://snipboard.io/D4fTCB.jpg",
-    link: "https://ai-saas-three-steel.vercel.app/",
+    link: "https://snapsync-three-steel.vercel.app/",
     techStack: [
       "React",
       "Next.js",
