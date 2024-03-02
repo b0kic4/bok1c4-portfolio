@@ -39,31 +39,30 @@ export default function Modal({ onClose }: any) {
         className="dark:bg-gray-800 bg-white p-6 rounded-lg z-10 relative"
       >
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-4">Connect with me</h2>
           <div className="flex justify-center space-x-4">
             <Link
               href="https://github.com/b0kic4"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={24} />
+              <FaGithub size={40} />
             </Link>
             <Link
               href="https://www.linkedin.com/in/boris-nikolic-a44a2126a/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={24} />
+              <FaLinkedin size={40} />
             </Link>
             <Link
               href="https://twitter.com/bok1c4"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitter size={24} />
+              <FaTwitter size={40} />
             </Link>
             <Link href="mailto:borisnikolic2302@gmail.com">
-              <FaEnvelope size={24} />
+              <FaEnvelope size={40} />
             </Link>
           </div>
         </div>
