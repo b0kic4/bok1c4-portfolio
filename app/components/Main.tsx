@@ -95,6 +95,7 @@ const ProjectPreview = ({
 }) => (
   <Link
     href={link}
+    target="_blank"
     passHref
     className="bg-white rounded-lg shadow p-4 block hover:shadow-lg transition duration-300"
   >
