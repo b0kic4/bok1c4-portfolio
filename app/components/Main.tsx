@@ -27,7 +27,7 @@ const projects = [
       "Zod",
     ],
     hosting: [
-      "Vercel (Frontend & Backend)",
+      "Vercel",
       "Supabase (Database)",
       "Firebase Cloud Storage (Image Hosting)",
     ],
