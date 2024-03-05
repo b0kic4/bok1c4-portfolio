@@ -11,7 +11,6 @@ const projects = [
     techStack: [
       "React",
       "Next.js",
-      "Node.js",
       "Next-AppRouter",
       "PostgreSQL",
       "Typescript",
@@ -42,7 +41,6 @@ const projects = [
     techStack: [
       "React",
       "Next.js",
-      "Node.js",
       "MongoDB",
       "Cloudinary",
       "Clerk",
@@ -76,6 +74,27 @@ const projects = [
   },
 ];
 
+
+interface TechStackBadgeProps {
+  tech: string;
+}
+
+const TechStackBadge: React.FC<TechStackBadgeProps> = ({ tech }) => (
+  <span className="inline-flex items-center justify-center bg-blue-600 text-white text-sm font-medium py-1.5 px-3 rounded-md shadow-sm hover:bg-blue-700 transition-colors duration-150 mr-2 mb-2">
+    {tech}
+  </span>
+);
+
+interface HostingBadgeProps {
+  service: string;
+}
+
+const HostingBadge: React.FC<HostingBadgeProps> = ({ service }) => (
+  <span className="inline-flex items-center justify-center bg-green-600 text-white text-sm font-medium py-1.5 px-3 rounded-md shadow-sm hover:bg-green-700 transition-colors duration-150 mr-2 mb-2">
+    {service}
+  </span>
+);
+
 const ProjectPreview = ({
   name,
   description,
@@ -103,9 +122,7 @@ const ProjectPreview = ({
       <Image
         src={imageUrl}
         alt={name}
-        layout="responsive"
-        width={900}
-        height={600}
+        layout="fill"
         objectFit="cover"
         className="rounded-lg"
       />
@@ -114,29 +131,23 @@ const ProjectPreview = ({
       <div className="flex flex-col gap-1">
         <h3 className="text-xl font-semibold mb-2">{name}</h3>
         {inDevelopment && (
-          <span className="text-md text-yellow-600 font-semibold ml-2">
+          <span className="text-md text-orange-600 font-semibold ml-2">
             In Development
           </span>
         )}
       </div>
-      <p className="text-sm text-gray-600 mb-4">{description}</p>
-      <div className="flex space-x-4">
-        <div className="flex flex-col">
-          <p className="text-xs text-gray-700">
-            <strong>Tech Stack:</strong>
-          </p>
-          <p className="text-xs text-gray-600 font-semibold mt-1">
-            {techStack.join(", ")}
-          </p>
-        </div>
-        <div className="flex flex-col">
-          <p className="text-xs text-gray-700">
-            <strong>Hosting:</strong>
-          </p>
-          <p className="text-xs text-gray-600 font-semibold mt-1">
-            {hosting.join(", ")}
-          </p>
-        </div>
+      <p className="text-base mt-1 font-semibold text-gray-700 mb-4">{description}</p>
+      <div className="flex flex-wrap justify-start mb-4">
+        <p className="text-sm font-bold text-gray-700 mb-2 w-full">Tech Stack:</p>
+        {techStack.map((tech, index) => (
+          <TechStackBadge key={index} tech={tech} />
+        ))}
+      </div>
+      <div className="flex flex-wrap justify-center">
+        <p className="text-sm font-bold text-gray-700 mb-1 w-full">Hosting:</p>
+        {hosting.map((service, index) => (
+          <HostingBadge key={index} service={service} />
+        ))}
       </div>
     </div>
   </Link>
