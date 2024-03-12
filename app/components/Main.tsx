@@ -68,7 +68,7 @@ const projects = [
       "Supabase (Database)",
       "Firebase Cloud Storage (Image Hosting)",
     ],
-    inDevelopment: true,
+    inDevelopment: false,
   },
 ];
 
