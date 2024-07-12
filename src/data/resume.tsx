@@ -1,6 +1,8 @@
 import { Icons } from "@/components/icons";
 import { CodeIcon, HomeIcon, NotebookIcon } from "lucide-react";
 
+// NOTE: Kursevi, Knjige, Osnovna, Srednja, Faks i ostali projekti
+
 export const DATA = {
   name: "Boris Nikolic",
   initials: "BN",
@@ -10,7 +12,7 @@ export const DATA = {
   description:
     "Software Engineer - Entrepreneur. I love building things and helping people.",
   summary:
-    "I’ve been passionate about programming since I was a kid. I started exploring coding around 2017, and by the end of 2021, I wrote my first React code. Initially, I learned JavaScript, HTML, and CSS through tutorials, building simple websites. As I gained knowledge, I created my own E-commerce sites, blogs, and basic websites. By late 2022, I dived into Node.js and TypeScript, fostering a growing interest in backend development and exploring new technologies and languages like Python and C. With increasing confidence, I created my own websites with basic features using React, Node.js, and MongoDB, as well as a Snake application in Python Fast forward two years, I have learned TypeScript, Java, Go, and new JavaScript frameworks like NestJS and NextJS. I gained more knowledge in programming by reading books, creating software, watching courses, and learning from other people's code. Since then, I’ve focused on enhancing my skills in software design, architecture, distributed systems, databases, and algorithms and data structures.",
+    "I’ve been passionate about programming since early age. I started exploring coding around 2017, and by the end of 2021, I wrote my first React code. Initially, I learned JavaScript, HTML, and CSS through tutorials, building simple websites. As I gained knowledge, I created my own E-commerce sites, blogs, and basic websites. By late 2022, I dived into Node.js and TypeScript, fostering a growing interest in backend development and exploring new technologies and languages like Python and C. With increasing confidence, I built websites with React, Node.js, and MongoDB, and developed a Snake application in Python. Fast forward two years, I have learned TypeScript, Java, Go, and JavaScript frameworks like NestJS and NextJS. I deepened my programming knowledge by reading books, creating software, watching courses, and learning from other people's code. Since then, I’ve focused on enhancing my skills in software design, architecture, distributed systems, databases, and algorithms & data structures.",
 
   avatarUrl: "/me.png",
   skills: [

@@ -31,7 +31,7 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-32 border">
+              <Avatar className="size-36 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
@@ -213,8 +213,7 @@ export default function Page() {
                 >
                   with a direct question on linkedin
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll respond whenever I can.{" "}
               </p>
             </div>
           </BlurFade>
