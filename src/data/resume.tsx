@@ -166,7 +166,7 @@ export const DATA = {
       school: "Techincal school IT",
       href: "https://www.tsz.edu.rs/",
       degree: "High School Diploma",
-      logoUrl: "/tehnicka-skola-logo.jpeg",
+      logoUrl: "/education/tehnicka-skola-logo.jpeg",
       start: "2019",
       end: "2023",
     },
@@ -174,7 +174,7 @@ export const DATA = {
       school: "University Singidunum",
       href: "https://eng.singidunum.ac.rs/",
       degree: "Bachelor's Degree Software Engineering",
-      logoUrl: "/singilogo.png",
+      logoUrl: "/education/singilogo.png",
       start: "2023",
       end: "2027",
     },
@@ -221,7 +221,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "/insightify-ss.png",
+      image: "/projects/insightify.png",
       video: "",
       // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
@@ -360,6 +360,48 @@ export const DATA = {
         "A system for recognizing and responding to voice commands using natural language processing and machine learning.",
       reason:
         "Developing a voice assistant or speech recognition system fascinates me because it involves cutting-edge technologies in natural language processing and human-computer interaction. This project is a fantastic opportunity to explore how machines understand and respond to human speech, and to learn about the underlying technologies that power voice interfaces.",
+    },
+  ],
+  books: [
+    {
+      title: "Clean Architecture",
+      image: "/books/CleanArchitecture.jpg",
+      read: true,
+    },
+    {
+      title: "Grokking Algorithms",
+      image: "/books/grokking.jpg",
+      read: false,
+    },
+    {
+      title: "The Self-Taught Programmer",
+      image: "/books/STProgrammer.jpg",
+      read: false,
+    },
+    {
+      title: "Refactoring",
+      image: "/books/Refactoring.jpg",
+      read: false,
+    },
+    {
+      title: "Designing Data-Intensive Applications",
+      image: "/books/DesigningDataIntesiveApp.jpg",
+      read: true,
+    },
+    {
+      title: "Software Architecture: The Hard Parts",
+      image: "/books/SoftwareArchitectureHardParts.jpg",
+      read: false,
+    },
+    {
+      title: "Pragmatic Programmer",
+      image: "/books/PragmaticProgrammer.jpg",
+      read: true,
+    },
+    {
+      title: "Code 2 Complete",
+      image: "/books/Code2Complete.jpg",
+      read: false,
     },
   ],
 } as const;

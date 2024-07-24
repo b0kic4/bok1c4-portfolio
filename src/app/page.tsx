@@ -196,6 +196,50 @@ export default function Page() {
         </div>
       </section>
 
+      <section id="books">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Books
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  My Reading Journey
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Here are some of the books I've read and some that are on my
+                  reading list. Each book has contributed to my growth as a
+                  developer, providing new insights and knowledge.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+              {DATA.books.map((book, id) => (
+                <BlurFade
+                  key={book.title}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <li className="py-4 flex flex-col items-center space-y-2">
+                    <img
+                      src={book.image}
+                      alt={book.title}
+                      className="w-32 h-48 object-cover"
+                    />
+                    <h3 className="text-2xl font-bold">{book.title}</h3>
+                    <p className="text-muted-foreground">
+                      {/* {book.read ? "Read" : "Planned to Read"} */}
+                    </p>
+                  </li>
+                </BlurFade>
+              ))}
+            </ul>
+          </BlurFade>
+        </div>
+      </section>
+
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
