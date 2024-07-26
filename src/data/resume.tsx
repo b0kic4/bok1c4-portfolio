@@ -323,7 +323,7 @@ export const DATA = {
   advancedProjects: [
     {
       title: "Database Management System (DBMS)",
-      language: "C++",
+      language: "Rust",
       description:
         "A high-performance database management system focusing on efficient data storage, retrieval, and transaction management.",
       reason:
@@ -331,7 +331,7 @@ export const DATA = {
     },
     {
       title: "Distributed File System",
-      language: "Go",
+      language: "C++",
       description:
         "A scalable distributed file system designed to handle massive amounts of data across multiple nodes.",
       reason:
