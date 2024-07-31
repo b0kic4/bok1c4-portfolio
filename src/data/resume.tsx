@@ -325,11 +325,13 @@ export const DATA = {
   advancedProjects: [
     {
       title: "Database Management System (DBMS)",
-      language: "Rust",
+      language: "Go & Rust",
       description:
         "A high-performance database management system focusing on efficient data storage, retrieval, and transaction management.",
       reason:
         "I would like to build a DBMS because I think it's an excellent way to deepen my understanding of data structures, algorithms, memory management, and concurrency. This project offers practical experience with complex topics such as indexing, transactions, and query optimization, which are crucial skills in the field of software engineering.",
+      languageReason:
+        "I've chosen Go because of its simplicity and efficient concurrency model, which I find ideal for managing multiple connections and tasks. Rust is included for its memory safety features, which help prevent common errors and enhance the reliability of the system, particularly in low-level data management.",
     },
     {
       title: "Distributed File System",
@@ -338,6 +340,8 @@ export const DATA = {
         "A scalable distributed file system designed to handle massive amounts of data across multiple nodes.",
       reason:
         "I'm interested in developing a distributed file system because it presents an opportunity to explore the intricacies of distributed systems, including fault tolerance, data replication, and consistency models. This project will help me learn how to design and implement scalable and reliable systems, which are essential in today's data-driven world.",
+      languageReason:
+        "C++ is my language of choice here because of its strong performance characteristics and fine-grained control over system resources, which are critical for building efficient and scalable distributed systems.",
     },
     {
       title: "AI Game Bot",
@@ -346,14 +350,18 @@ export const DATA = {
         "An AI-powered game bot capable of playing and strategizing in complex games.",
       reason:
         "Creating an AI game bot is appealing to me because it combines my interest in artificial intelligence with a fun and interactive challenge. This project allows me to delve into AI concepts such as reinforcement learning, decision-making algorithms, and model training, all while applying these theories to real-world scenarios like gaming.",
+      languageReason:
+        "Python is the perfect tool for this project due to its extensive libraries for AI and machine learning, which facilitate quick development and experimentation with different algorithms.",
     },
     {
       title: "Network Protocol Analyzer",
-      language: "Rust | C++",
+      language: "Rust & C++",
       description:
         "A tool for capturing, analyzing, and visualizing network traffic to diagnose and troubleshoot network issues.",
       reason:
         "I want to build a network protocol analyzer to enhance my understanding of network protocols, data packet structures, and cybersecurity. This project will give me hands-on experience in building low-level, high-performance software, and it's a great way to learn about the critical aspects of network security and data integrity.",
+      languageReason:
+        "I chose Rust for its memory safety and concurrency advantages, which are crucial for handling complex network operations safely. C++ complements this by offering deep system-level access, necessary for detailed packet inspection and efficient data processing.",
     },
     {
       title: "Voice Assistant / Speech Recognition System",
@@ -362,6 +370,8 @@ export const DATA = {
         "A system for recognizing and responding to voice commands using natural language processing and machine learning.",
       reason:
         "Developing a voice assistant or speech recognition system fascinates me because it involves cutting-edge technologies in natural language processing and human-computer interaction. This project is a fantastic opportunity to explore how machines understand and respond to human speech, and to learn about the underlying technologies that power voice interfaces.",
+      languageReason:
+        "Python is chosen for its robust NLP and machine learning libraries, making it suitable for processing and analyzing speech data. C++ is included for optimizing performance-critical components, such as real-time audio processing.",
     },
   ],
   books: [

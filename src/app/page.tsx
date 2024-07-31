@@ -180,13 +180,18 @@ export default function Page() {
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
                 >
                   <li className="py-4">
-                    <h3 className="text-2xl font-bold">{project.title}</h3>
+                    <h3 className="text-2xl font-bold text-red-600">
+                      {project.title}
+                    </h3>
                     <p className="mt-2">
                       <strong>Planned Language:</strong> {project.language}
                     </p>
                     <p className="mt-2">{project.description}</p>
-                    <p className="mt-2 text-muted-foreground">
+                    <p className="mt-2 text-purple-800 dark:text-purple-400">
                       <strong>Reasoning:</strong> {project.reason}
+                    </p>
+                    <p className="mt-2 text-pink-800 dark:text-pink-400">
+                      <strong>Language:</strong> {project.languageReason}
                     </p>
                   </li>
                 </BlurFade>
