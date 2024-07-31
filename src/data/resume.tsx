@@ -190,7 +190,9 @@ export const DATA = {
       technologies: [
         "Next.js",
         "Nestjs",
+        "RabbitMQ",
         "Go",
+        "ChromeDP",
         "Typescript",
         "PostgreSQL",
         "Prisma",
