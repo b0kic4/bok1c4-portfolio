@@ -236,7 +236,7 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
       dates: "May 2024 - July 2024",
       active: true,
       description:
-        "For the Insightify application, I built a custom web scraper with Go and ChromeDP (Chrome Developer Tools). This microservice captures high-quality website screenshots directly from the Next.js client and integrates with Redis for task management, GORM for database handling, and Firebase Cloud Storage for efficient image storage, ensuring scalable performance.",
+        "For the Insightify application, I built a custom web scraper using Go and ChromeDP (Chrome Developer Tools). This microservice captures high-quality website screenshots directly from the Next.js client. I implemented Redis for caching to reduce redundant requests and boost performance, while GORM handles database interactions, and Firebase Cloud Storage ensures efficient image storage, making a scalable and responsive system.",
       technologies: [
         "Go",
         "ChromeDP",
