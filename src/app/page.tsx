@@ -173,24 +173,26 @@ export default function Page() {
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l border-gray-300 dark:border-gray-700">
               {DATA.advancedProjects.map((project, id) => (
                 <BlurFade
                   key={project.title + project.language}
                   delay={BLUR_FADE_DELAY * 15 + id * 0.05}
                 >
                   <li className="py-4">
-                    <h3 className="text-2xl font-bold text-red-600">
+                    <h3 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
                       {project.title}
                     </h3>
                     <p className="mt-2">
                       <strong>Planned Language:</strong> {project.language}
                     </p>
-                    <p className="mt-2">{project.description}</p>
-                    <p className="mt-2 text-purple-800 dark:text-purple-400">
+                    <p className="mt-2 text-gray-700 dark:text-gray-300">
+                      {project.description}
+                    </p>
+                    <p className="mt-2 text-green-700 dark:text-green-400">
                       <strong>Reasoning:</strong> {project.reason}
                     </p>
-                    <p className="mt-2 text-pink-800 dark:text-pink-400">
+                    <p className="mt-2 text-indigo-700 dark:text-indigo-400">
                       <strong>Language:</strong> {project.languageReason}
                     </p>
                   </li>

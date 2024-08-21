@@ -10,21 +10,28 @@ export const DATA = {
   location: "Belgrade, Serbia",
   locationLink: "https://www.google.com/maps/place/belgrade",
   description:
-    "Software Engineer - Entrepreneur. I love building things and learning new things.",
-  summary: `I’ve been passionate about programming since early age. 
-    I started exploring coding around **2017**, and by the end of **2021**, I wrote my first **React** code. 
-    Initially, I learned **JavaScript, HTML, and CSS** through tutorials, building simple websites. 
-    As I gained knowledge, I created my own **E-commerce sites, blogs**, and **basic websites**. 
-    By late **2022**, I dived into **Node.js and TypeScript**, fostering a growing interest in **backend development** 
-    and exploring new technologies and languages like **Python and C++**. 
-    With increasing confidence, I built websites with **React, Node.js, MongoDB**, 
-    and also developed some applications in **C**. 
-    Fast forward two years, I have learned **TypeScript, Java, Go**, 
-    and some JS frameworks like **NestJS** and **NextJS**. 
-    I deepened my programming knowledge by reading books, creating software, 
-    watching courses, and learning from other people's code. 
-    Since then, I’ve focused on enhancing my skills in **software design, architecture, 
-    distributed systems, cybersecurity, microservices, algorithms & data structures**.`,
+    "Student Software Engineer -> Freelancer -> Entrepreneur. I love building things and learning new things.",
+  summary: `
+**Code Ninja Chronicles**
+
+**🥷 Neovim Enthusiast:**  
+My coding adventures are powered by Neovim, because why be slow when you can have the power of Vim?
+
+**🎮 Language Playground:**  
+TypeScript, Go, and a sprinkle of Java keeps my day and nights fun. TypeScript for its flexibility, Go for its efficiency & speed, and Java for those LeetCode challenges—just the right balance to keep things interesting!
+
+**🧩 OO Languages Fan:**  
+Yes, please! They are fun to me with all the **encapsulation**, **abstraction**, **inheritance** and **polymorphism**. These concepts make object-oriented languages an exciting playground for creating well-structured and efficient systems. Can’t wait to dive deeper into them!
+
+**📚 Knowledge Sponge:**  
+I'm love soaking up knowledge through books, articles, videos, or even deep-diving into software design, architecture, distributed systems, cybersecurity, microservices, algorithms, and data structures. I might not be a master of all, but I'm all in for the learning journey.
+
+**🎉 Fun Facts About Me:**
+- **🐢 Visual Studio?** More like Visual Slowdio. I’d rather stick with Java over C# because, well, speed matters.
+- **🕵️‍♂️ Ethical hacking** is my secret (ethical) thrill—there’s something fascinating about understanding the dark arts to protect the good guys.
+- **💻 Crafting my own SaaS solutions** is my zen. From identifying a problem to creating a market-fit solution and finally building the application—it’s like therapy for me.
+- **👀 Reddit** is my go-to spot for real-talk. Whether it's opinions, recommendations, or critiques, there's no better place to tap into the hive mind of the internet.
+`,
 
   avatarUrl: "/me.png",
   skills: [
@@ -89,16 +96,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Freelance",
+      company: "Freelancing",
       href: "https://bok1c4.vercel.app/",
       badges: [],
       location: "Remote",
-      title: "Software Developer",
+      title: "Software Developer (Student Software Engineer)",
       logoUrl: "/freelancer.jpg",
       start: "January 2024",
       end: "Present",
       description:
-        "Building websites for clients and creating Software as a Service applications",
+        "Building websites for clients and creating my own applications",
     },
     // {
     //   company: "Shopify",
@@ -224,6 +231,171 @@ export const DATA = {
         // },
       ],
       image: "/projects/insightify.png",
+      video: "",
+      // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Insightify Scraper Microservice",
+      href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
+      dates: "May 2024 - July 2024",
+      active: true,
+      description:
+        "With the release of the [OpenAI GPT 4o](https://openai.com/index/hello-gpt-4o/), I decided to build a SaaS which allows users to analyze their website and provide potential improvements. Under the hood its using gpt-4o and custom built scraper for content capturing.",
+      technologies: [
+        "Next.js",
+        "Nestjs",
+        "RabbitMQ",
+        "Go",
+        "ChromeDP",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Gumroad",
+        "Shadcn UI",
+        // "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
+          icon: <Icons.github className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/projects/insightify-scraper.png",
+      video: "",
+      // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Tokos",
+      href: "https://ataoakaoasa.vercel.app/",
+      dates: "July 2024 - September 2024",
+      active: true,
+      description:
+        "In collaboration with another developer, we developed an online store for Tokos Store. As the full stack developer, I was responsible for both the frontend and backend, ensuring a seamless user experience throughout the site.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ataoakaoasa.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/GooseGodX/tokos-website/tree/develop",
+          icon: <Icons.github className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/projects/tokos.png",
+      video: "",
+      // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Tokos Admin Panel",
+      href: "https://ataoakaoasadmin-panel.vercel.app/",
+      dates: "July 2024 - September 2024",
+      active: true,
+      description:
+        "The Tokos Admin Panel is a comprehensive management application designed specifically for the workers and administrators of Tokos. It features role-based authentication, allowing users to view live orders, create and modify products, assign roles, and perform all necessary CRUD operations. This tool streamlines the operational workflow, ensuring that the business runs smoothly and efficiently.",
+      technologies: [
+        "Next.js",
+        "NextAuth",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ataoakaoasadmin-panel.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/GooseGodX/tokos-admin-panel/tree/develop",
+          icon: <Icons.github className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/projects/tokos-admin-panel.png",
+      video: "",
+      // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Tokos Event Based Websocket Microservice",
+      href: "https://github.com/GooseGodX/tokos-go-ws",
+      dates: "July 2024 - September 2024",
+      active: true,
+      description:
+        "The Tokos Event Based Websocket Microservice is a server designed for real-time, event-based communication between clients and servers. Built with Go, it ensures efficient message handling with robust validation, playing a key role in seamless interactions within the Tokos ecosystem.",
+      technologies: ["Go", "Websockets", "Gorilla", "SQL", "PostgreSQL"],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/GooseGodX/tokos-go-ws",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/GooseGodX/tokos-go-ws",
+          icon: <Icons.github className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/projects/tokos-ws.png",
       video: "",
       // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
