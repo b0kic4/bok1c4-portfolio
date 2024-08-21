@@ -24,7 +24,7 @@ TypeScript, Go, and a sprinkle of Java keeps my day and nights fun. TypeScript f
 Yes, please! They are fun to me with all the **encapsulation**, **abstraction**, **inheritance** and **polymorphism**. These concepts make object-oriented languages an exciting playground for creating well-structured and efficient systems. Can’t wait to dive deeper into them!
 
 **📚 Knowledge Sponge:**  
-I'm love soaking up knowledge through books, articles, videos, or even deep-diving into software design, architecture, distributed systems, cybersecurity, microservices, algorithms, and data structures. I might not be a master of all, but I'm all in for the learning journey.
+I'm love soaking up knowledge through books, articles, videos, or even deep-diving into software design, architecture, distributed systems, cybersecurity, microservices, algorithms and data structures. I might not be a master of all, but I'm all in for the learning journey.
 
 **🎉 Fun Facts About Me:**
 - **🐢 Visual Studio?** More like Visual Slowdio. I’d rather stick with Java over C# because, well, speed matters.
