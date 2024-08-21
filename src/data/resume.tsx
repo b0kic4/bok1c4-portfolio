@@ -196,10 +196,6 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
         "With the release of the [OpenAI GPT 4o](https://openai.com/index/hello-gpt-4o/), I decided to build a SaaS which allows users to analyze their website and provide potential improvements. Under the hood its using gpt-4o and custom built scraper for content capturing.",
       technologies: [
         "Next.js",
-        "Nestjs",
-        "RabbitMQ",
-        "Go",
-        "ChromeDP",
         "Typescript",
         "PostgreSQL",
         "Prisma",
@@ -240,19 +236,15 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
       dates: "May 2024 - July 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT 4o](https://openai.com/index/hello-gpt-4o/), I decided to build a SaaS which allows users to analyze their website and provide potential improvements. Under the hood its using gpt-4o and custom built scraper for content capturing.",
+        "For the Insightify application, I built a custom web scraper with Go and ChromeDP (Chrome Developer Tools). This microservice captures high-quality website screenshots directly from the Next.js client and integrates with Redis for task management, GORM for database handling, and Firebase Cloud Storage for efficient image storage, ensuring scalable performance.",
       technologies: [
-        "Next.js",
-        "Nestjs",
-        "RabbitMQ",
         "Go",
         "ChromeDP",
-        "Typescript",
+        "Redis",
+        "SQL",
+        "GORM",
         "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Gumroad",
-        "Shadcn UI",
+        "Firebase Cloud Storage",
         // "Magic UI",
       ],
       links: [
@@ -278,6 +270,46 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
         // },
       ],
       image: "/projects/insightify-scraper.png",
+      video: "",
+      // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Insightify Message Queue & Cron Microservice",
+      href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
+      dates: "May 2024 - July 2024",
+      active: true,
+      description:
+        "The Insightify NestJS Microservice automates data management by scheduling checks every 12 hours to delete improvements older than 24 hours. It then sends a payload to RabbitMQ, where the client consumes the message and notifies the appropriate user. This microservice ensures efficient data cleanup and reliable message handling within the Insightify platform.",
+      technologies: [
+        "Nestjs",
+        "Typescript",
+        "RabbitMQ",
+        "Task Schedule",
+        // "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
+          icon: <Icons.github className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/projects/nestjs-rabbitmq2.png",
       video: "",
       // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
@@ -502,18 +534,17 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
         "A high-performance database management system focusing on efficient data storage, retrieval, and transaction management.",
       reason:
         "I would like to build a DBMS because I think it's an excellent way to deepen my understanding of data structures, algorithms, memory management, and concurrency. This project offers practical experience with complex topics such as indexing, transactions, and query optimization, which are crucial skills in the field of software engineering.",
-      languageReason:
-        "I've chosen Go because of its simplicity and efficient concurrency model, which I find ideal for managing multiple connections and tasks. Rust is included for its memory safety features, which help prevent common errors and enhance the reliability of the system, particularly in low-level data management.",
+      languageReason: "Go for concurrency, Rust for memory safety.",
     },
     {
       title: "Distributed File System",
-      language: "C++",
+      language: "C++ with optional integration with Go & Rust",
       description:
         "A scalable distributed file system designed to handle massive amounts of data across multiple nodes.",
       reason:
         "I'm interested in developing a distributed file system because it presents an opportunity to explore the intricacies of distributed systems, including fault tolerance, data replication, and consistency models. This project will help me learn how to design and implement scalable and reliable systems, which are essential in today's data-driven world.",
       languageReason:
-        "C++ is my language of choice here because of its strong performance characteristics and fine-grained control over system resources, which are critical for building efficient and scalable distributed systems.",
+        "C++ for performance, Go/Rust for concurrency and safety.",
     },
     {
       title: "AI Game Bot",
@@ -522,18 +553,16 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
         "An AI-powered game bot capable of playing and strategizing in complex games.",
       reason:
         "Creating an AI game bot is appealing to me because it combines my interest in artificial intelligence with a fun and interactive challenge. This project allows me to delve into AI concepts such as reinforcement learning, decision-making algorithms, and model training, all while applying these theories to real-world scenarios like gaming.",
-      languageReason:
-        "Python is the perfect tool for this project due to its extensive libraries for AI and machine learning, which facilitate quick development and experimentation with different algorithms.",
+      languageReason: "Python for its AI and ML libraries.",
     },
     {
       title: "Network Protocol Analyzer",
-      language: "Rust & C++",
+      language: "Go & Rust",
       description:
         "A tool for capturing, analyzing, and visualizing network traffic to diagnose and troubleshoot network issues.",
       reason:
         "I want to build a network protocol analyzer to enhance my understanding of network protocols, data packet structures, and cybersecurity. This project will give me hands-on experience in building low-level, high-performance software, and it's a great way to learn about the critical aspects of network security and data integrity.",
-      languageReason:
-        "I chose Rust for its memory safety and concurrency advantages, which are crucial for handling complex network operations safely. C++ complements this by offering deep system-level access, necessary for detailed packet inspection and efficient data processing.",
+      languageReason: "Go for concurrency, Rust for safety and performance.",
     },
     {
       title: "Voice Assistant / Speech Recognition System",
@@ -542,8 +571,7 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
         "A system for recognizing and responding to voice commands using natural language processing and machine learning.",
       reason:
         "Developing a voice assistant or speech recognition system fascinates me because it involves cutting-edge technologies in natural language processing and human-computer interaction. This project is a fantastic opportunity to explore how machines understand and respond to human speech, and to learn about the underlying technologies that power voice interfaces.",
-      languageReason:
-        "Python is chosen for its robust NLP and machine learning libraries, making it suitable for processing and analyzing speech data. C++ is included for optimizing performance-critical components, such as real-time audio processing.",
+      languageReason: "Python for NLP/ML, C++ for performance.",
     },
   ],
   books: [
