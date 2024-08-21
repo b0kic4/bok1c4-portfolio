@@ -27,7 +27,7 @@ Yes, please! They are fun to me with all the **encapsulation**, **abstraction**,
 I'm love soaking up knowledge through books, articles, videos, or even deep-diving into software design, architecture, distributed systems, cybersecurity, microservices, algorithms and data structures. I might not be a master of all, but I'm all in for the learning journey.
 
 **🎉 Fun Facts About Me:**
-- **🐢 Visual Studio?** More like Visual Slowdio. I’d rather stick with Java over C# because, well, speed matters.
+- **🐢 Visual Studio?** More like Visual Slowdio. I’d rather stick with LazyVim because, well, speed matters.
 - **🕵️‍♂️ Ethical hacking** is my secret (ethical) thrill—there’s something fascinating about understanding the dark arts to protect the good guys.
 - **💻 Crafting my own SaaS solutions** is my zen. From identifying a problem to creating a market-fit solution and finally building the application—it’s like therapy for me.
 - **👀 Reddit** is my go-to spot for real-talk. Whether it's opinions, recommendations, or critiques, there's no better place to tap into the hive mind of the internet.
