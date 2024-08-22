@@ -18,7 +18,7 @@ export const DATA = {
 My coding adventures are powered by Neovim, because why be slow when you can have the power of Vim?
 
 **🎮 Language Playground:**  
-TypeScript, Go, and a sprinkle of Java keeps my day and nights fun. TypeScript for its flexibility, Go for its efficiency & speed, and Java for those LeetCode challenges—just the right balance to keep things interesting!
+TypeScript, Go, and a sprinkle of Java keeps my day and night fun. TypeScript for its flexibility, Go for its efficiency & speed, and Java for those LeetCode challenges—just the right balance to keep things interesting!
 
 **🧩 OO Languages Fan:**  
 Yes, please! They are fun to me with all the **encapsulation**, **abstraction**, **inheritance** and **polymorphism**. These concepts make object-oriented languages an exciting playground for creating well-structured and efficient systems. Can’t wait to dive deeper into them!
