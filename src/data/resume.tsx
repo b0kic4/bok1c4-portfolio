@@ -337,7 +337,7 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
         },
         {
           type: "Source",
-          href: "https://github.com/GooseGodX/tokos-website/tree/develop",
+          href: "https://github.com/GooseGodX/tokos-website",
           icon: <Icons.github className="size-3" />,
         },
         // {
@@ -379,7 +379,7 @@ I'm love soaking up knowledge through books, articles, videos, or even deep-divi
         },
         {
           type: "Source",
-          href: "https://github.com/GooseGodX/tokos-admin-panel/tree/develop",
+          href: "https://github.com/GooseGodX/tokos-admin-panel",
           icon: <Icons.github className="size-3" />,
         },
         // {
