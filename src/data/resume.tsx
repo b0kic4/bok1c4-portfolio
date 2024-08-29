@@ -24,7 +24,7 @@ TypeScript, Go, and a sprinkle of Java keeps my day and night fun. TypeScript fo
 Absolutely! I love diving into **object-oriented languages** they're like a playground of concepts and ideas that make coding so much more fun!
 
 **📚 My approach to learning:**  
-The best way I gain knowledge is by building things, diving into books, writing about what I learn, and watching videos. Whether it’s software engineering, coding, or anything else, I’m all about learning by doing—even if I’m not a master of everything.
+The best way I gain knowledge is by building things, reading articles, diving into books, writing about what I learn, and watching videos. Whether it’s software engineering, coding, or anything else, I’m all about learning by doing—even if I’m not a master of everything.
 
 **🎉 Fun Facts About Me:**
 - **🛠️ Neovim Enthusiast** I’m all about keeping my hands on the keyboard, avoiding the mouse whenever I can :D.
