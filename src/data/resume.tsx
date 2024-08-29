@@ -18,19 +18,19 @@ export const DATA = {
 My coding adventures are powered by Neovim, because why be slow when you can have the power of Vim?
 
 **🎮 Language Playground:**  
-TypeScript, Go, and a sprinkle of Java keeps my day and night fun. TypeScript for its flexibility, Go for its efficiency & speed, and Java for those LeetCode challenges—just the right balance to keep things interesting!
+TypeScript, Go, and a sprinkle of Java keeps my day and night fun. TypeScript for its flexibility, Go for its efficiency & speed, and Java for those LeetCode challenges just the right balance to keep things interesting :)
 
 **🧩 OO Languages Fan:**  
-Yes, please! They are fun to me with all the **encapsulation**, **abstraction**, **inheritance** and **polymorphism**. These concepts make object-oriented languages an exciting playground for creating well-structured and efficient systems. Can’t wait to dive deeper into them!
+Absolutely! I love diving into **object-oriented languages** they're like a playground of concepts and ideas that make coding so much more fun!
 
-**📚 Knowledge Sponge:**  
-I'm love soaking up knowledge through books, articles, videos, or even deep-diving into software design, architecture, distributed systems, cybersecurity, microservices, algorithms and data structures. I might not be a master of all, but I'm all in for the learning journey.
+**📚 My approach to learning:**  
+The best way I gain knowledge is by building things, diving into books, writing about what I learn, and watching videos. Whether it’s software engineering, coding, or anything else, I’m all about learning by doing—even if I’m not a master of everything.
 
 **🎉 Fun Facts About Me:**
-- **🐢 Visual Studio?** More like Visual Slowdio. I’d rather stick with LazyVim because, well, speed matters.
-- **🕵️‍♂️ Ethical hacking** is my secret (ethical) thrill—there’s something fascinating about understanding the dark arts to protect the good guys.
-- **💻 Crafting my own SaaS solutions** is my zen. From identifying a problem to creating a market-fit solution and finally building the application—it’s like therapy for me.
-- **👀 Reddit** is my go-to spot for real-talk. Whether it's opinions, recommendations, or critiques, there's no better place to tap into the hive mind of the internet.
+- **🛠️ Neovim Enthusiast** I’m all about keeping my hands on the keyboard, avoiding the mouse whenever I can :D.
+- **🕵️‍♂️ Ethical hacking** I’m passionate about ethical hacking and cybersecurity, always down for diving deeper and learning more in this niche.
+- **💻 Crafting my own SaaS Solutions & Projects** I absolutely love it. From identifying a problem to creating a market-fit solution and finally building the application—it’s like therapy for me.
+- **👀 Reddit** is my go-to spot. Whether it's opinions, recommendations, or critiques, there's no better place to tap into.
 `,
 
   avatarUrl: "/me.png",
