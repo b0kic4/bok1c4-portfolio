@@ -183,7 +183,7 @@ The best way I gain knowledge is by building things, reading articles, diving in
       degree: "Bachelor's Degree Software Engineering",
       logoUrl: "/education/singilogo.png",
       start: "2023",
-      end: "2027",
+      end: "Present",
     },
   ],
   projects: [
