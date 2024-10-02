@@ -110,6 +110,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -142,10 +143,12 @@ export default function Page() {
                   description={project.description}
                   dates={project.dates}
                   tags={project.technologies}
+                  active={project.active}
                   image={project.image}
                   video={project.video}
                   links={project.links}
                 />
+                {/* Conditionally show Badge if project is not active */}
               </BlurFade>
             ))}
           </div>

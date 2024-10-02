@@ -17,6 +17,7 @@ interface Props {
   description: string;
   dates: string;
   tags: readonly string[];
+  active: boolean;
   link?: string;
   image?: string;
   video?: string;
@@ -34,6 +35,7 @@ export function ProjectCard({
   description,
   dates,
   tags,
+  active,
   link,
   image,
   video,
@@ -46,31 +48,41 @@ export function ProjectCard({
         "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
       }
     >
-      <Link
-        href={href || "#"}
-        className={cn("block cursor-pointer", className)}
-        target="_blank"
-      >
-        {video && (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
-          />
-        )}
-        {image && (
-          <Image
-            src={image}
-            width={500}
-            height={500}
-            alt={title}
-            className="h-40 w-full overflow-hidden object-cover object-top"
-          />
-        )}
-      </Link>
+      <div className="relative">
+        {" "}
+        {/* Add relative positioning to this container */}
+        <Link
+          href={href || "#"}
+          className={cn("block cursor-pointer", className)}
+          target="_blank"
+        >
+          {video && (
+            <video
+              src={video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            />
+          )}
+          {image && (
+            <Image
+              src={image}
+              width={500}
+              height={500}
+              alt={title}
+              className="h-40 w-full overflow-hidden object-cover object-top"
+            />
+          )}
+        </Link>
+        <Badge
+          className="absolute top-2 left-2"
+          variant={active ? "default" : "destructive"}
+        >
+          {active ? "Active" : "Inactive"}
+        </Badge>
+      </div>
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
@@ -88,7 +100,7 @@ export function ProjectCard({
           <div className="mt-2 flex flex-wrap gap-1">
             {tags?.map((tag) => (
               <Badge
-                className="px-1 py-0 text-[10px]"
+                className="px-1 py-0 text-sm"
                 variant="secondary"
                 key={tag}
               >

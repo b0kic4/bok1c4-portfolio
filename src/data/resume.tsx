@@ -191,7 +191,7 @@ The best way I gain knowledge is by building things, reading articles, diving in
       title: "Inisghtify",
       href: "https://insightifyyy.vercel.app/",
       dates: "May 2024 - July 2024",
-      active: true,
+      active: false,
       description:
         "With the release of the [OpenAI GPT 4o](https://openai.com/index/hello-gpt-4o/), I decided to build a SaaS which allows users to analyze their website and provide potential improvements. Under the hood its using gpt-4o and custom built scraper for content capturing.",
       technologies: [
@@ -234,7 +234,7 @@ The best way I gain knowledge is by building things, reading articles, diving in
       title: "Insightify Scraper Microservice",
       href: "https://github.com/b0kic4/Insightify-chromedp-scraper",
       dates: "May 2024 - July 2024",
-      active: true,
+      active: false,
       description:
         "For the Insightify application, I built a custom web scraper using Go and ChromeDP (Chrome Developer Tools). This microservice captures high-quality website screenshots directly from the Next.js client. I implemented Redis for caching to reduce redundant requests and boost performance, while GORM handles database interactions, and Firebase Cloud Storage ensures efficient image storage, making a scalable and responsive system.",
       technologies: [
@@ -277,7 +277,7 @@ The best way I gain knowledge is by building things, reading articles, diving in
       title: "Insightify Message Queue & Cron Microservice",
       href: "https://github.com/b0kic4/insightify-nestjs-cron-jobs",
       dates: "May 2024 - July 2024",
-      active: true,
+      active: false,
       description:
         "The Insightify NestJS Microservice automates data management by scheduling checks every 12 hours to delete improvements older than 24 hours. It then sends a payload to RabbitMQ, where the client consumes the message and notifies the appropriate user. This microservice ensures efficient data cleanup and reliable message handling within the Insightify platform.",
       technologies: [
