@@ -18,7 +18,7 @@ export const DATA = {
 My coding adventures are powered by Neovim, because why be slow when you can have the power of Vim?
 
 **🎮 Language Playground:**  
-TypeScript, Go, and a sprinkle of Java keeps my day and night fun. TypeScript for its flexibility, Go for its efficiency & speed, and Java for those LeetCode challenges just the right balance to keep things interesting :)
+TypeScript, Go adn Rust keeps my day and night fun. TypeScript for its flexibility, Go for its efficiency & speed, and Rust memory safe solutions just the right balance to keep things interesting :)
 
 **🧩 OO Languages Fan:**  
 Absolutely! I love diving into **object-oriented languages** they're like a playground of concepts and ideas that make coding so much more fun!
@@ -36,19 +36,17 @@ The best way I gain knowledge is by building things, reading articles, diving in
   avatarUrl: "/me.png",
   skills: [
     "Typescript",
+    "Rust",
+    "Go",
+    "C",
     "React",
     "Next.js",
     "Node.js",
     "Nest.js",
-    "Python",
-    "Go",
-    "Java",
-    "C",
     "Postgres",
     "MySQL",
     "MongoDB",
     "Redis",
-    "Prisma",
     "Docker",
     "Kubernetes",
     "AWS",
