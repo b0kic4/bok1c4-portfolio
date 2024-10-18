@@ -18,7 +18,7 @@ export const DATA = {
 My coding adventures are powered by Neovim, because why be slow when you can have the power of Vim?
 
 **🎮 Language Playground:**  
-TypeScript, Go adn Rust keeps my day and night fun. TypeScript for its flexibility, Go for its efficiency & speed, and Rust memory safe solutions just the right balance to keep things interesting :)
+TypeScript, Go and Rust keeps my day and night fun. TypeScript for its flexibility, Go for its efficiency & speed, and Rust memory safe solutions just the right balance to keep things interesting :)
 
 **🧩 OO Languages Fan:**  
 Absolutely! I love diving into **object-oriented languages** they're like a playground of concepts and ideas that make coding so much more fun!
